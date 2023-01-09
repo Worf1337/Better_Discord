@@ -11,7 +11,7 @@
 	--Active: 120, calc(var(--saturation-factor, 1)*50%), 40%; /* An HSL triplet for clicking (default: 120, calc(var(--saturation-factor, 1)*50%), 40%) */
 	--Red: 5, calc(var(--saturation-factor, 1)*100%), 40%; /* An HSL triplet for errors (default: 5, calc(var(--saturation-factor, 1)*100%), 40%) */
 	--Yellow: 39, calc(var(--saturation-factor, 1)*100%), 50%; /* An HSL triplet for warning (default: 39, calc(var(--saturation-factor, 1)*100%), 50%) */
-	--Blank: 0.7; /* An opacity for not hovered, 0 for hiding, 1 for showing (default: 0.7) */
+	--Blank: 1; /* An opacity for not hovered, 0 for hiding, 1 for showing (default: 0.7) */
 	--server-container: calc(var(--server-size) + 27px) !important; /* Horizontal Server List Theme Support */
 }
 .theme-dark:root,
